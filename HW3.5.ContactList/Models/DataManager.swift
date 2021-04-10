@@ -6,8 +6,6 @@
 //
 
 class DataManager {
-    static let share = DataManager()
-    
     static var randomArray = getPersons()
     
     static var names = ["Nicholas", "Deborah", "Clarence", "Juanita", "William",
@@ -40,8 +38,6 @@ class DataManager {
                          "9(91)091-45-83", "20(79)352-33-21",
                          "6(020)492-39-49", "8(573)454-17-23",
                          "4(35)251-10-25", "398(7728)790-75-49"]
-    
-    private init() {}
     
     static func getUnikData() -> (name: String, surname: String, email: String, phone: String) {
         
