@@ -13,11 +13,9 @@ struct DetailedContact: View {
     var body: some View {
         VStack {
             List {
-                Section() {
                     PersonImageLineView()
                     PhoneLineView(person: person)
                     EmailLineView(person: person)
-                }
             }
         }
         .navigationBarTitle("\(person.name) \(person.surname)")

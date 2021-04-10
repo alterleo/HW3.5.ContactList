@@ -26,6 +26,6 @@ struct ContactsView: View {
 
 struct ContactsView_Previews: PreviewProvider {
     static var previews: some View {
-        ContactsView(persons:[DataManager.getPerson(0)])
+        ContactsView(persons:DataManager.randomArray)
     }
 }
